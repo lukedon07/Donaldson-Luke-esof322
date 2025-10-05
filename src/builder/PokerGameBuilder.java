@@ -1,5 +1,5 @@
 package builder;
-import player.Player;
+import factory.method.Player;
 import java.util.ArrayList;
 
 public class PokerGameBuilder {

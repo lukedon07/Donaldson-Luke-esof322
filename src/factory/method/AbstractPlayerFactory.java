@@ -1,5 +1,4 @@
 package factory.method;
-import player.Player;
 
 
 abstract class AbstractPlayerFactory implements IPlayerFactory {

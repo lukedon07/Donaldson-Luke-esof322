@@ -1,7 +1,5 @@
 package factory.method;
 
-import player.Player;
-
 import java.util.ArrayList;
 
 public class PokerGame {

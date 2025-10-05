@@ -1,4 +1,4 @@
-package player;
+package builder;
 
 public class Player {
 

@@ -1,7 +1,5 @@
 package factory.method;
 
-import player.Player;
-
 public class WeakAIPlayerFactory extends AbstractPlayerFactory {
 
 

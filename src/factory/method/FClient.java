@@ -2,7 +2,9 @@ package factory.method;
 
 public class FClient{
 
+
     public FClient() {
+
         AbstractPlayerFactory humanPlayerFactory = new HumanPlayerFactory();
         humanPlayerFactory.checkPlayerIn("Luke");
 
