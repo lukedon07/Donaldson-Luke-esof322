@@ -2,7 +2,7 @@ package builder;
 import player.Player;
 import java.util.ArrayList;
 
-public class PokerGame {
+public class PokerGameBuilder {
 
     private String game;
     private Integer num_of_players;
@@ -11,7 +11,7 @@ public class PokerGame {
     private ArrayList<Player> player_list;
 
 
-    private PokerGame(Builder builder){
+    private PokerGameBuilder(Builder builder){
         this.game = builder.game;
         this.num_of_players = builder.num_of_players;
         this.starting_chips = builder.starting_chips;
@@ -60,8 +60,8 @@ public class PokerGame {
             return this;
         }
 
-        public PokerGame build(){
-            return new PokerGame(this);
+        public PokerGameBuilder build(){
+            return new PokerGameBuilder(this);
         }
     }
 
